@@ -129,6 +129,7 @@ button:hover {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;
     overflow: hidden;
 }
 
@@ -167,7 +168,7 @@ button:hover {
 
 .about_container {
     display: flex;
-    padding: 80px;
+    padding: 120px;
     position: relative;
 }
 
@@ -194,7 +195,7 @@ button:hover {
 
 .about_line {
     border-bottom: 2px solid #eb6d61;
-    width:50px;
+    width: 50px;
     border-radius: 10px;
 }
 
@@ -204,16 +205,111 @@ button:hover {
 
 }
 
+.paragraph_1 {
+    color: #eb6d61;
+    margin-bottom: 7px;
+}
+
+.paragraph_2 {
+    margin-bottom: 7px;
+}
+
+.paragraph_3 {
+    color: #eb6d61;
+}
+
 .mydata {
     color: #fdfaf3;
     margin-top: 30px;
     border: 1px solid #eb6d61;
     padding: 20px;
     width: 100%;
-    
+
 }
 
 .mydata td {
     padding: 5px 0;
 }
 
+.services {
+    background-color: #25273E;
+    padding: 120px;
+}
+
+.services_title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.services_title h2 {
+    font-family: "Poppins_semiBold";
+    font-size: 38px;
+    color: #fdfaf3;
+    margin-bottom: 10px;
+}
+
+.services_line {
+    border-bottom: 3px solid #eb6d61;
+    width: 10%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services_contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.above_part, .under_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4,
+.card_5 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #eb6d61;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #eb6d61;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.web_icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+h3 {
+    font-family: "Poppins_medium",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: #fdfaf3;
+}
+
+footer {
+    background-color: #1F2233;
+    padding: 15px;
+}
+footer p {
+    color: #fdfaf3;
+    font-family: "Poppins_semiBold",sans-serif;
+    text-align: center;
+}
