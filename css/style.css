@@ -10,6 +10,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Poppins_semiBold";
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -50,7 +56,7 @@ button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 20px;
+    padding: 20px 20px;
 }
 
 .logo {
@@ -119,7 +125,7 @@ button:hover {
     position: relative;
 }
 
-.foto_intro {
+.my_smallPhoto {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -149,16 +155,65 @@ button:hover {
     border-bottom: 1px solid #fdfaf3;
 }
 
-.info p{
+.info p {
     margin-left: 10px;
 }
 
 .about {
-    height: 100vh;
-    background-color: #25273E;
+    min-height: 100vh;
+    background-color: #1F2233;
+    display: flex;
 }
 
 .about_container {
-    padding: 40px;
     display: flex;
+    padding: 80px;
+    position: relative;
 }
+
+.my_bigPhoto {
+    height: 100%;
+    width: fit-content;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.about_contain h2 {
+    font-family: "Poppins_semiBold";
+    font-size: 30px;
+    color: #fdfaf3;
+}
+
+.about_contain {
+    margin-left: 20px;
+}
+
+.about_contain_line {
+    margin-bottom: 30px;
+}
+
+.about_line {
+    border-bottom: 2px solid #eb6d61;
+    width:50px;
+    border-radius: 10px;
+}
+
+.about_text {
+    color: #fdfaf3;
+    text-align: justify;
+
+}
+
+.mydata {
+    color: #fdfaf3;
+    margin-top: 30px;
+    border: 1px solid #eb6d61;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.mydata td {
+    padding: 5px 0;
+}
+
