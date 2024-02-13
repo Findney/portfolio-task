@@ -4,86 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/contactStyle.css">
+    <title>Contact Me</title>
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <p>Find<span>ney</span></p>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <div class="line"></div>
+                <li><a href="index.html#aboutme">About</a></li>
+                <div class="line"></div>
+                <li><a href="index.html#layanan">Services</a></li>
+            </ul>
+        </nav>
+    </header>
     <section class="hero">
-        <div class="overlay-gelap"></div>
-        <div class="header_contain">
-            <div class="logo">
-                <p>Find<span>ney</span></p>
-            </div>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="index.html" class="nav_active">Home</a></li>
-                    <li><a href="about.html" class="nav_active">About</a></li>
-                    <li><a href="#services" class="nav_active">Services</a></li>
-                </ul>
-            </nav>
-            <a class="ctb" href="contact.html"><button>Contact Me</button></a>
-        </div>
-        <div class="intro">
-            <figure>
-                <img src="./images/profil.jpg" alt="Agil's Photo" style="height: 100px;">
-                <figcaption class="hidden">Foto Agil Mughni</figcaption>
-            </figure>
-            <h1>Agil Mughni</h1>
-            <p>2208107010025</p>
-        </div>
-        <div class="info">
-            <p>----- Scroll Down</p>
-        </div>
-    </section>
-    <section class="about">
-        <figure>
-            <img src="./images/profil.jpg" alt="Agil's Photo">
-            <figcaption class="hidden">Foto Agil Mughni</figcaption>
-        </figure>
-        <h2>About Me</h2>
-        <p>Halo! Nama saya Agil Mughni, dan saya adalah seorang mahasiswa Jurusan Informatika Universitas Syiah
-            Kuala. Saya memiliki minat yang besar dalam Artificial Intelligence, dan saya senang belajar hal baru
-            setiap hari.</p>
-        <p>Saat ini, saya sedang mengembangkan keterampilan saya dalam pengembangan web dan desain grafis. Saya
-            percaya bahwa pendidikan adalah kunci untuk mencapai impian, dan saya berusaha untuk terus meningkatkan
-            diri saya</p>
-        <p>Terima kasih sudah berkunjung ke halaman ini. Jangan ragu untuk menghubungi saya jika Anda memiliki
-            pertanyaan atau ingin berkolaborasi dalam proyek-proyek menarik!</p>
-        <table>
-            <tr>
-                <td>Nama: Agil Mughni</td>
-                <td>Umur: 19</td>
-            </tr>
-            <tr>
-                <td>Ponsel: +62 823 6198 3696</td>
-                <td>Alamat: Aceh Besar</td>
-            </tr>
-
-            <tr>
-                <td>Job: Mahasiswa</td>
-                <td>Hobby: Membaca</td>
-            </tr>
-
-            <tr>
-                <td>E-mail: mughni@mhs.usk.ac.id</td>
-                <td>Instagram: @agilmughni</td>
-            </tr>
-        </table>
-    </section>
-    <section class="services">
-        <div class="service_title">
-            <div class="service_cointain">
-
+        <div class="overlay_hero">
+            <div class="hero_container">
+                <div class="hero_link">
+                    <h5>HOME <span class="arrow_sign">></span> <span class="current_link">CONTACT US</span></h5>
+                </div>
+                <div class="hero_contain">
+                    <h1>Contact Informations</h1>
+                    <p>Di sini, Anda akan menemukan semua informasi yang Anda perlukan untuk menghubungi saya. Apakah
+                        Anda mempunyai pertanyaan atau hanya ingin menyapa, silahkan hubungi saya melalui email,
+                        telepon, atau media sosial. Feel free to contact me. I cant't wait to hear from you</p>
+                    <a href="#contactMe" class="ctb"><button>Contact Me</button></a>
+                </div>
             </div>
         </div>
     </section>
-    </main>
 
+    <section class="contact" id="contactMe">
+        <div class="contact_info">
+            <div class="card_1">
+                <!-- <a href="https://api.whatsapp.com/send?phone=6282361983696"> -->
+                    <img src="" alt="Phone Icon" class="phone_icon">
+                    <h3>WhatsApp<br><span class="desc_card">+62 823 6198 3696</span></h3>
+                <!-- </a> -->
+            </div>
+            <div class="card_2">
+                <img src="" alt="Email Icon" class="email_icon">
+                <h3>Email Address<br><span class="desc_card">mughni@mhs.usk.ac.id</span></h3>
+            </div>
+            <div class="card_3">
+                <img src="" alt="Instagram Icon" class="ig_icon">
+                <h3>Instagram<br><span class="desc_card">@agilmughni</span></h3>
+            </div>
+            <div class="card_4"><a
+                    href="https://www.google.com/maps/place/5%C2%B031'17.0%22N+95%C2%B023'48.1%22E/@5.5212043,95.3967812,19.83z/data=!4m4!3m3!8m2!3d5.521394!4d95.396692?entry=ttu"
+                    target="_blank"><img src="" alt="Location Icon" class="location_icon">
+                    <h3>Location<br><span class="desc_card">Kuta Baro Regency Block N20</span></h3>
+                </a>
+            </div>
+        </div>
+        <div class="send_message_card">
+            <h4 class="send_message_title">Send Message</h4>
+            <p class="send_message_paragraph">Silahkan lengkapi formulir berikut untuk memberikan pesan</p>
+            <input type="text" name="name" placeholder="Your Name" class="send_message_input">
+            <input type="email" name="email" placeholder="Your Email" class="send_message_input">
+            <input type="tel" name="name" placeholder="Your Phone Number" class="send_message_input">
+            <input type="text" name="subject" placeholder="Subject" class="send_message_input">
+            <textarea type="text" name="message" placeholder="Message" class="send_message_textarea"></textarea>
+            <button class="send_message_btn" type="submit">Send Message</button>
+        </div>
+    </section>
     <footer>
         <p>Copyright &copy; 2024 | Agil Mughni</p>
     </footer>
-
 </body>
 
 </html>
