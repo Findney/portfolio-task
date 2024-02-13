@@ -182,37 +182,43 @@ a {
     flex-direction: column;
     height: 100%;
     width: fit-content;
-    padding-right: 20px; 
+    padding-right: 20px;
 }
 
 h3 {
     font-family: "Poppins_regular", sans-serif;
     color: #1F2233;
     padding-left: 20px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .send_message_card {
-    width: 50%; 
-    padding-left: 20px; 
+    width: 50%;
+    padding-left: 20px;
     height: 100%;
 }
 
 h4 {
-    font-family: "Poppins_bold",sans-serif;
+    font-family: "Poppins_bold", sans-serif;
     font-size: 30px;
     color: #1F2233;
 }
 
 .send_message_card p {
-    font-family: "Poppins_regular",sans-serif;
+    font-family: "Poppins_regular", sans-serif;
     color: #1F2233;
     margin-bottom: 20px;
 }
 
-.card_1,
-.card_2,
-.card_3,
+.icon {
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card_1 a,
+.card_2 a,
+.card_3 a,
 .card_4 a {
     border: 2px solid #eb6d61;
     border-radius: 5px;
@@ -223,6 +229,8 @@ h4 {
     align-items: center;
     font-size: 15px;
 }
+
+
 
 .card_4 a {
     color: #1F2233;
@@ -235,9 +243,9 @@ h4 {
 }
 
 .send_message_input {
-    width: 100%; 
+    width: 100%;
     margin-bottom: 15px;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .send_message_textarea {
@@ -248,16 +256,15 @@ h4 {
 .send_message_btn {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #1F2233; 
-    color: #fff; 
+    background-color: #1F2233;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .send_message_btn:hover {
-    background-color: #eb6d61; 
+    background-color: #eb6d61;
 }
-
 
 footer {
     background-color: #1F2233;
