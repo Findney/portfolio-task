@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Poppins_thin";
+    src: url("../fonts/Poppins/Poppins-Thin.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins_regular";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins_medium";
+    src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins_semiBold";
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins_bold";
+    src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins_medium", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    background-color: #1F2233;
+}
+
+li,
+a {
+    color: #fdfaf3;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.logo p {
+    color: #fdfaf3;
+}
+
+.logo span {
+    color: #eb6d61;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    display: inline-block;
+    height: 15px;
+    border-right: 1px solid #fdfaf3;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #eb6d61;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: url(/images/contactMe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: sepia(40%);
+    position: relative;
+}
+
+.overlay_hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero_container {
+    position: relative;
+    z-index: 1;
+    color: #fdfaf3;
+}
+
+.hero_contain {
+    margin: 15vh 40vh;
+    text-align: center;
+}
+
+.hero_link {
+    padding: 40px;
+}
+
+.hero_link h5 {
+    margin: 0;
+    font-family: "Poppins_semiBold", sans-serif;
+    font-size: 15px;
+}
+
+.arrow_sign {
+    padding-left: 5px;
+}
+
+.current_link {
+    padding-left: 5px;
+    color: #eb6d61;
+}
+
+.hero_contain h1 {
+    font-family: "Poppins_bold", sans-serif;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.hero_contain p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ctb button {
+    color: #1F2233;
+    border: #eb6d61;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-color: #eb6d61;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #eb6d61;
+    transition: background-color 0.3s ease;
+}
+
+.ctb button:hover {
+    color: #eb6d61;
+    background-color: #1F2233;
+}
+
+.contact {
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    color: #1F2233;
+    background-color: #fdfaf3;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: fit-content;
+    padding-right: 20px; 
+}
+
+h3 {
+    font-family: "Poppins_regular", sans-serif;
+    color: #1F2233;
+    padding-left: 20px;
+    margin-bottom: 10px; 
+}
+
+.send_message_card {
+    width: 50%; 
+    padding-left: 20px; 
+    height: 100%;
+}
+
+h4 {
+    font-family: "Poppins_bold",sans-serif;
+    font-size: 30px;
+    color: #1F2233;
+}
+
+.send_message_card p {
+    font-family: "Poppins_regular",sans-serif;
+    color: #1F2233;
+    margin-bottom: 20px;
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4 a {
+    border: 2px solid #eb6d61;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 15px;
+}
+
+.card_4 a {
+    color: #1F2233;
+    margin-bottom: 0;
+}
+
+.desc_card {
+    font-size: 15px;
+    font-family: "Poppins_thin", sans-serif;
+}
+
+.send_message_input {
+    width: 100%; 
+    margin-bottom: 15px;
+    padding: 10px; 
+}
+
+.send_message_textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.send_message_btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1F2233; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+.send_message_btn:hover {
+    background-color: #eb6d61; 
+}
+
+
+footer {
+    background-color: #1F2233;
+    padding: 15px;
+}
+
+footer p {
+    color: #fdfaf3;
+    font-family: "Poppins_semiBold", sans-serif;
+    text-align: center;
+}
