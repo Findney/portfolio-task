@@ -217,7 +217,7 @@ h4 {
 }
 
 .card_1 a,
-.card_2 ,
+.card_2,
 .card_3 a,
 .card_4 a {
     border: 2px solid #eb6d61;
@@ -231,7 +231,7 @@ h4 {
 }
 
 .card_2 {
-    cursor:default;
+    cursor: default;
 }
 
 
@@ -280,24 +280,24 @@ h4 {
     padding: 20px;
     border: 1px solid #1F2233;
     border-radius: 5px;
-    text-align: center; /* agar teks dan tombol tutup berada di tengah */
-  }
+    text-align: center;
+}
 
-  #closeBtn {
+#closeBtn {
     border-radius: 8px;
     padding: 5px 8px;
     font-size: 12px;
     cursor: pointer;
-  }
+}
 
-  #closeBtn:hover {
+#closeBtn:hover {
     color: #fdfaf3;
     background-color: #1F2233;
-  }
+}
 
-  #desc_popup {
+#desc_popup {
     color: #1F2233;
-  }
+}
 
 footer {
     background-color: #1F2233;
