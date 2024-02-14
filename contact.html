@@ -49,10 +49,8 @@
                 </a>
             </div>
             <div class="card_2">
-            
-                    <img src="./images/gmail_icon.png" alt="Email Icon" class="icon">
-                    <h3>Email Address<br><span class="desc_card">mughni@mhs.usk.ac.id</span></h3>
-  
+                <img src="./images/gmail_icon.png" alt="Email Icon" class="icon">
+                <h3>Email Address<br><span class="desc_card">mughni@mhs.usk.ac.id</span></h3>
             </div>
             <div class="card_3">
                 <a href="https://www.instagram.com/agilmughni/" target="_blank">
@@ -70,17 +68,48 @@
         <div class="send_message_card">
             <h4 class="send_message_title">Send Message</h4>
             <p class="send_message_paragraph">Silahkan lengkapi formulir berikut untuk memberikan pesan</p>
-            <input type="text" name="name" placeholder="Your Name" class="send_message_input">
-            <input type="email" name="email" placeholder="Your Email" class="send_message_input">
-            <input type="tel" name="name" placeholder="Your Phone Number" class="send_message_input">
-            <input type="text" name="subject" placeholder="Subject" class="send_message_input">
-            <textarea type="text" name="message" placeholder="Message" class="send_message_textarea"></textarea>
-            <button class="send_message_btn" type="submit">Send Message</button>
+            <form id="contactForm" action="#contactMe" method="">
+                <input type="text" name="name" placeholder="Your Name" class="send_message_input">
+                <input type="email" name="email" placeholder="Your Email" class="send_message_input">
+                <input type="tel" name="phone" placeholder="Your Phone Number" class="send_message_input">
+                <input type="text" name="subject" placeholder="Subject" class="send_message_input">
+                <textarea type="text" name="message" placeholder="Message" class="send_message_textarea"></textarea>
+                <button class="send_message_btn" id="submitBtn" type="submit">Send Message</button>
+
+                <!-- Pop Up -->
+                <div id="popup" style="display: none;">
+                    <p id="desc_popup">Tidak dapat mengirim pesan karena tidak ada database yang terhubung!</p>
+                    <button id="closeBtn">Tutup</button>
+                </div>
+            </form>
         </div>
     </section>
     <footer>
         <p>Copyright &copy; 2024 | Agil Mughni</p>
     </footer>
+
+    <!-- Script JavaScript -->
+    <script>
+        // Fungsi untuk menampilkan pop up
+        function showPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        // Fungsi untuk menutup pop up
+        function hidePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+
+        // Mengatur event listener untuk tombol submit
+        document.getElementById("submitBtn").addEventListener("click", function() {
+            showPopup(); // Memanggil fungsi untuk menampilkan pop up
+        });
+
+        document.getElementById("closeBtn").addEventListener("click", function(){
+            hidePopup(); // Memanggil fungsi untuk menutup pop up
+        });
+    </script>
+
 </body>
 
 </html>
