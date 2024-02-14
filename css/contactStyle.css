@@ -217,7 +217,7 @@ h4 {
 }
 
 .card_1 a,
-.card_2 a,
+.card_2 ,
 .card_3 a,
 .card_4 a {
     border: 2px solid #eb6d61;
@@ -230,6 +230,9 @@ h4 {
     font-size: 15px;
 }
 
+.card_2 {
+    cursor:default;
+}
 
 
 .card_4 a {
