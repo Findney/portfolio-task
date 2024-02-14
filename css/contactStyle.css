@@ -269,6 +269,36 @@ h4 {
     background-color: #eb6d61;
 }
 
+#popup {
+    color: #eb6d61;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eb6d61;
+    padding: 20px;
+    border: 1px solid #1F2233;
+    border-radius: 5px;
+    text-align: center; /* agar teks dan tombol tutup berada di tengah */
+  }
+
+  #closeBtn {
+    border-radius: 8px;
+    padding: 5px 8px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  #closeBtn:hover {
+    color: #fdfaf3;
+    background-color: #1F2233;
+  }
+
+  #desc_popup {
+    color: #1F2233;
+  }
+
 footer {
     background-color: #1F2233;
     padding: 15px;
