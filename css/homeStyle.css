@@ -168,7 +168,7 @@ button:hover {
 
 .my_bigPhoto {
     height: 100%;
-    width: fit-content;
+    width: 100%;
     margin-right: 20px;
     object-fit: cover;
 }
@@ -181,6 +181,7 @@ button:hover {
 
 .about_contain {
     margin-left: 20px;
+    width: 100%;
 }
 
 .about_contain_line {
