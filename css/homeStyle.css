@@ -34,7 +34,7 @@ button {
 
 .hero {
     min-height: 90vh;
-    background-image: url("/images/bg_img.jpg");
+    background-image: url("../images/bg_img.jpg");
     position: relative;
     background-position: center;
     background-size: cover;
